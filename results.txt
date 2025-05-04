@@ -1,0 +1,36 @@
+Model Accuracy: 0.9877
+
+Classification Report:
+              precision    recall  f1-score   support
+
+      edible       0.98      1.00      0.99      1257
+   poisonous       1.00      0.97      0.99      1181
+
+    accuracy                           0.99      2438
+   macro avg       0.99      0.99      0.99      2438
+weighted avg       0.99      0.99      0.99      2438
+
+
+Feature Importance:
+         feature  importance
+5         odor_n    0.324277
+2         odor_f    0.237228
+9   gill-color_b    0.124275
+0         odor_a    0.051370
+3         odor_l    0.046913
+6         odor_p    0.043547
+7         odor_s    0.039072
+1         odor_c    0.033694
+8         odor_y    0.027112
+14  gill-color_n    0.022577
+19  gill-color_w    0.012816
+17  gill-color_r    0.009751
+4         odor_m    0.006737
+18  gill-color_u    0.005340
+11  gill-color_g    0.004587
+13  gill-color_k    0.004543
+12  gill-color_h    0.002853
+16  gill-color_p    0.001936
+20  gill-color_y    0.000779
+10  gill-color_e    0.000479
+15  gill-color_o    0.000113
